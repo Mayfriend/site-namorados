@@ -1,0 +1,176 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #7b2cbf; /* Cor de fundo roxa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #957fef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(134, 58, 58, 0.1);
+    text-align: center;
+    max-width: 1600px;
+    width: 100%;
+    color: #ffffff;
+}
+
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button#yesButton {
+    background-color: green;
+}
+
+button#yesButton:hover {
+    background-color: darkgreen;
+}
+
+button#noButton {
+    background-color: red;
+}
+
+button#noButton:hover {
+    background-color: darkred;
+}
+
+.photos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo-item {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 10px;
+}
+
+.photo-card {
+    background-color: #a06cd5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #6247aa;
+    overflow: hidden;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
+
+.photo-frame {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 400px; /* Altura fixa para todas as molduras */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem mantenha a proporção correta */
+    border-radius: 10px;
+}
+
+.photo-info {
+    margin-top: 10px;
+}
+
+.photo-info h2 {
+    margin: 10px 0;
+}
+
+.photo-info p {
+    margin: 10px 0;
+    font-size: 2.0em; /* Aumentar o tamanho da fonte dos títulos das fotos */
+}
+
+.photo-info h2 {
+    margin: 10px 0;
+    color: #ffffff; /* Cor dos títulos das fotos */
+    font-size: 2.0em; /* Aumentar o tamanho da fonte dos títulos das fotos */
+}
+
+.photo-info p {
+    margin: 10px 0;
+    color: #ffffff; /* Cor das legendas das fotos */
+    font-size: 2.0em; /* Aumentar o tamanho da fonte dos títulos das fotos */
+}
+
+.hidden {
+    display: none;
+}
+
+textarea {
+    width: 90%; /* Aumentar a largura da área de texto */
+    padding: 10px;
+    margin: 100px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.4em;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: green; /* Cor de fundo verde */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: darkgreen; /* Cor de fundo verde escura */
+}
+
+#feedback {
+    margin-top: 20px;
+    color: #ffffff; /* Cor do texto de feedback */
+    font-size: 1.3em; /* Tamanho da fonte do texto de feedback */
+}
+
+.footer-phrase {
+    margin-top: 20px;
+    font-size: 1.6em; /* Tamanho da fonte da frase de rodapé */
+     /* Cor da frase de rodapé */
+}
+
+.music-box {
+    background-color: #fff; /* Fundo branco para o box */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+    max-width: 600px; /* Largura máxima do box */
+    margin: 20px auto; /* Centralizar o box horizontalmente */
+}
+
+.music-box p {
+    margin-bottom: 10px;
+    font-size: 1.5em; /* Tamanho da fonte da descrição */
+    color: #6d23b6; /* Cor do texto de feedback */
+}
+
+.music-box a {
+    color: #6d23b6; /* Cor do link */
+    text-decoration: underline;
+    font-size: 1.3em; /* Tamanho da fonte do link */
+}
